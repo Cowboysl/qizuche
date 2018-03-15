@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轻租车</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" href="../../plugins/ydui-0.1.3/build/css/ydui.css" />
+    <script src="../../plugins/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="../../assets/js/index.js"></script>
+    <script src='../../plugins/md5/jquery.md5.js'></script>
+    <link rel="stylesheet" href="css/css.min.css" />
+</head>
+<body>
+    <section>
+        <header class="flx_space-between">
+            <h1 class="left-title">登陆/注册</h1>
+            <div class="right-title"><img src="../../public/images/user_logo.png" alt=""></div>
+        </header>
+        <div class="qzc_flex_2 login">
+            <div data-name="login_yzm" class="tab_nav active">
+                验证码登录
+            </div>
+            <div data-name="login_psd" class="tab_nav">
+                密码登录
+            </div>
+        </div>
+        <!--验证码登录-->
+        <div id="login_yzm" class="tab tab_active login_yzm">
+            <div class="input_div">
+                <label for="user_phone">手机号</label>
+                <div class="style_input">
+                    <input id="user_phone" type="text" placeholder="手机号/登陆手机"/>
+                </div>
+            </div>
+            <div class="input_div">
+                <label for="user_yzm">短信验证码</label>
+                <div class="style_input">
+                    <input id="user_yzm" type="text" placeholder="收到的短信验证码">
+                    <a href="javascript:void(0)" onclick="sendCode(this)" class="css_sendCode active" id="get_code">点击获取</a>
+                </div>
+            </div>
+        </div>
+        <!--验证码登录  end-->
+        <div id="login_psd" class="tab login_psd">
+            <div class="input_div">
+                <label for="user_phone">账号</label>
+                <div class="style_input">
+                    <input id="user_phone" type="text" placeholder="用户名/手机号"/>
+                </div>
+            </div>
+            <div class="input_div">
+                <label for="user_yzm">密码</label>
+                <div class="style_input">
+                    <input id="user_yzm" type="text" placeholder="登陆密码">
+                </div>
+            </div>
+        </div>
+        <button onclick="doLogin()" type="button" class="btn-block btn-primary qzc_btn">确定</button>
+        <div class="center_mid agreement">
+            验证手机号即代表您已同意<span>《轻租车服务协议》</span>并授权征信审核
+        </div>
+    </section>
+</body>
+<script src="../../plugins/ydui-0.1.3/build/js/ydui.js"></script>
+<script src="../../plugins/ydui-0.1.3/build/js/ydui.flexible.js"></script>
+<script src="js/login.js"></script>
+</html>

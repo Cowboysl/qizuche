@@ -1,0 +1,237 @@
+@import url("../../../assets/css/index.min.css");
+section {
+  padding: 0 20px;
+  height: 100%; }
+  section .header {
+    position: fixed;
+    z-index: 999;
+    background: #ffffff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px 15px;
+    box-shadow: 0 0 10px #ccc; }
+    section .header img {
+      width: 58%; }
+    section .header i {
+      font-size: 22px; }
+  section .content {
+    padding: 30px 0 57px 0; }
+    section .content .title {
+      font-size: 28px;
+      text-align: center; }
+    section .content .title_fu {
+      font-size: 14px;
+      color: #767676;
+      text-align: center;
+      margin-top: 5px; }
+  section footer {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 56px;
+    color: #ffffff;
+    background: #00BBB2; }
+
+.vis .uploadImg {
+  position: relative;
+  height: 220px; }
+  .vis .uploadImg input {
+    opacity: 0; }
+  .vis .uploadImg .sub_upImg {
+    margin-top: 10px;
+    border: 1px solid #ECECEC;
+    border-radius: 4px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: #ECECEC;
+    text-align: center;
+    height: 200px; }
+    .vis .uploadImg .sub_upImg .css_upload {
+      position: absolute;
+      bottom: 20px;
+      font-size: 12px; }
+      .vis .uploadImg .sub_upImg .css_upload .upload_img {
+        margin-right: 5px;
+        margin-top: 0.1em;
+        width: 15px;
+        height: 15px; }
+
+.order_sub {
+  padding: 0; }
+  .order_sub .content {
+    padding: 0; }
+  .order_sub .choose_info {
+    padding: 30px  20px;
+    background: #E5ECEB;
+    position: relative; }
+    .order_sub .choose_info .container {
+      background: #ffffff;
+      padding: 10px; }
+    .order_sub .choose_info .up {
+      border-radius: 3px; }
+    .order_sub .choose_info .flex1 {
+      position: relative;
+      text-align: center;
+      border-right: 1px solid #C2C2C2;
+      font-size: .36rem; }
+      .order_sub .choose_info .flex1 span {
+        display: inline-flex; }
+    .order_sub .choose_info .flex2 div {
+      padding-left: .3rem;
+      font-size: .34rem;
+      color: #7A7A7A; }
+    .order_sub .choose_info select {
+      width: 100%;
+      border: none;
+      color: #00BBB2; }
+  .order_sub .icon {
+    position: absolute;
+    right: -5px;
+    width: .5rem;
+    height: .5rem; }
+  .order_sub input {
+    border: none;
+    width: 100%;
+    margin-left: 10px; }
+  .order_sub .circular {
+    border-radius: 100%;
+    border: none;
+    background: #00BBB2;
+    color: #ffffff;
+    font-size: .2rem;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 31%; }
+    .order_sub .circular span {
+      display: inline;
+      font-size: .3rem; }
+  .order_sub .qzc_list {
+    background: #fff; }
+
+.order_details {
+  padding: 0; }
+  .order_details .content {
+    padding: 0;
+    background: #E7E9EC;
+    margin-bottom: 0; }
+    .order_details .content .top {
+      background: #E5ECEB; }
+      .order_details .content .top .qzc_list {
+        background: #ffffff; }
+      .order_details .content .top .hr {
+        width: 100%;
+        padding-left: .4rem;
+        position: absolute;
+        bottom: 0; }
+        .order_details .content .top .hr div {
+          height: .01rem;
+          width: 100%;
+          background: #E5E5E5; }
+    .order_details .content .car_info {
+      position: relative; }
+      .order_details .content .car_info .take {
+        border: 1px solid #3BA1FF;
+        color: #3BA1FF;
+        width: .4rem;
+        height: .4rem;
+        border-radius: 100%;
+        font-size: 0.1rem;
+        position: absolute;
+        top: -.3rem; }
+      .order_details .content .car_info .still {
+        border: 1px solid #FBCF3F;
+        color: #FBCF3F;
+        width: .4rem;
+        height: .4rem;
+        border-radius: 100%;
+        font-size: 0.1rem;
+        position: absolute;
+        top: -.3rem; }
+      .order_details .content .car_info .addr {
+        margin-top: .1rem;
+        font-size: .26rem;
+        color: #646470; }
+      .order_details .content .car_info i {
+        font-size: .42rem;
+        color: #3BA1FF;
+        float: right; }
+    .order_details .content .list_still {
+      margin-top: 0; }
+      .order_details .content .list_still .qzc_list {
+        padding-top: .15rem; }
+    .order_details .content .list_take {
+      margin-top: .3rem; }
+      .order_details .content .list_take .qzc_list {
+        padding-bottom: .15rem; }
+    .order_details .content .css_date {
+      background: #ffffff;
+      position: relative; }
+      .order_details .content .css_date .container {
+        padding: .3rem .4rem; }
+  .order_details .icon {
+    position: absolute;
+    right: -5px;
+    width: .5rem;
+    height: .5rem; }
+  .order_details .qzc_list_right span {
+    margin-right: .4rem;
+    font-weight: normal;
+    color: #C8C7C8; }
+  .order_details .qzc_list_right .car_auditing {
+    color: #FFB400; }
+  .order_details .car_auditing {
+    color: #FFB400; }
+
+.select_city {
+  padding-bottom: 57px;
+  background: #E5EDEB; }
+  .select_city .content {
+    padding-bottom: 0; }
+    .select_city .content .package {
+      margin-top: .3rem;
+      padding: .4rem;
+      background: #ffffff;
+      border-radius: 10px; }
+      .select_city .content .package .banner_title {
+        margin-bottom: .3rem;
+        position: relative; }
+        .select_city .content .package .banner_title .icon_check {
+          position: absolute;
+          width: .4rem;
+          height: .4rem;
+          right: 0; }
+    .select_city .content .css_city {
+      margin: .4rem 0;
+      width: 100%;
+      padding: .3rem;
+      border-radius: 3px;
+      background: #ffffff; }
+      .select_city .content .css_city .flex_none div {
+        border-right: 1px solid #ccc;
+        padding: 0 .3rem 0 0;
+        color: #B1B1B1; }
+      .select_city .content .css_city .flex2 {
+        padding-left: .3rem;
+        text-align: center; }
+        .select_city .content .css_city .flex2 .icon {
+          right: 5px;
+          top: -.05rem;
+          width: .5rem;
+          height: .5rem;
+          position: absolute; }
+
+.order_success {
+  padding: 0; }
+  .order_success .content {
+    padding: .8rem 0 .5rem 0;
+    margin-top: 10%;
+    background: #E5EEEA; }
+
+/*# sourceMappingURL=css.css.map */

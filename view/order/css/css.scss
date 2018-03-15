@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url('../../../assets/css/index.min.css');
+$active_color:#00BBB2;
+$not_active_color:#ECECEC;
+.order_active{color:$active_color;border-bottom: 2px solid $active_color;}
+body{
+  background: #F5F5F5;
+}
+.order_list{
+  .header{
+    box-shadow: 0 0 10px #888888;
+    color: #787878;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    top:0;
+    left: 0;
+    >*{
+      text-align: center;
+      padding: .3rem 0;
+      div{
+        border-right: 1px solid #cccccc;
+      }
+      :last-child{
+        div{
+          border:none;
+        }
+      }
+    }
+  }
+  .list{
+    margin-top: 15%;
+    margin-bottom: 15px;
+    .view{
+      background: #E5ECEB;
+      .qzc_list{
+        background: #ffffff;
+      }
+      .hr{
+        width: 100%;
+        padding-left: .4rem;
+        position: absolute;
+        bottom: 0;
+        div{
+          height: .01rem;
+          width: 100%;
+          background: #E5E5E5;
+        }
+      }
+      .icon{
+        width: .4rem;
+        height: .4rem;
+        position: absolute;
+        right: 0;
+        top: 0rem;
+      }
+      .order_status{
+        font-size: .26rem;
+        .flex2{
+          color: #C8C7C8
+        }
+      }
+    }
+    .car_info{
+      position: relative;
+      .take{
+        border:1px solid $active_color;
+        color: $active_color;
+        width: .4rem;
+        height: .4rem;
+        border-radius: 100%;
+        font-size: 0.1rem;
+        position: absolute;
+        top: -.3rem;
+      }
+      .still{
+        border:1px solid #FBCF3F;
+        color: #FBCF3F;
+        width: .4rem;
+        height: .4rem;
+        border-radius: 100%;
+        font-size: 0.1rem;
+        position: absolute;
+        top: -.3rem;
+      }
+      .addr{
+        margin-top: .1rem;
+        font-size: .26rem;
+        color: #646470;
+      }
+      i{
+        font-size: .42rem;
+        color: $active_color;
+        float: right;
+      }
+    }
+    .list_still{
+      margin-top: 0;
+      .qzc_list{
+        padding-top: .15rem;
+      }
+    }
+    .list_take{
+      margin-top: .3rem;
+      .qzc_list{
+        padding-bottom: .15rem;
+      }
+    }
+    .css_date{
+      background: #ffffff;
+      position: relative;
+      .container{
+        padding: .3rem .16rem;
+      }
+    }
+    .car_auditing{
+      color: #FFB400;
+      font-weight: normal;
+      float: right;
+      margin-right: .4rem;
+    }
+    .car_forIn{
+      color: $active_color;
+      font-weight: normal;
+      float: right;
+      margin-right: .4rem;
+    }
+  }
+}

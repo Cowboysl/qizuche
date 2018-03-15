@@ -1,0 +1,103 @@
+@import url("../../../assets/css/index.min.css");
+.order_active {
+  color: #00BBB2;
+  border-bottom: 2px solid #00BBB2; }
+
+body {
+  background: #F5F5F5; }
+
+.order_list .header {
+  box-shadow: 0 0 10px #888888;
+  color: #787878;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  top: 0;
+  left: 0; }
+  .order_list .header > * {
+    text-align: center;
+    padding: .3rem 0; }
+    .order_list .header > * div {
+      border-right: 1px solid #cccccc; }
+    .order_list .header > * :last-child div {
+      border: none; }
+.order_list .list {
+  margin-top: 15%;
+  margin-bottom: 15px; }
+  .order_list .list .view {
+    background: #E5ECEB; }
+    .order_list .list .view .qzc_list {
+      background: #ffffff; }
+    .order_list .list .view .hr {
+      width: 100%;
+      padding-left: .4rem;
+      position: absolute;
+      bottom: 0; }
+      .order_list .list .view .hr div {
+        height: .01rem;
+        width: 100%;
+        background: #E5E5E5; }
+    .order_list .list .view .icon {
+      width: .4rem;
+      height: .4rem;
+      position: absolute;
+      right: 0;
+      top: 0rem; }
+    .order_list .list .view .order_status {
+      font-size: .26rem; }
+      .order_list .list .view .order_status .flex2 {
+        color: #C8C7C8; }
+  .order_list .list .car_info {
+    position: relative; }
+    .order_list .list .car_info .take {
+      border: 1px solid #00BBB2;
+      color: #00BBB2;
+      width: .4rem;
+      height: .4rem;
+      border-radius: 100%;
+      font-size: 0.1rem;
+      position: absolute;
+      top: -.3rem; }
+    .order_list .list .car_info .still {
+      border: 1px solid #FBCF3F;
+      color: #FBCF3F;
+      width: .4rem;
+      height: .4rem;
+      border-radius: 100%;
+      font-size: 0.1rem;
+      position: absolute;
+      top: -.3rem; }
+    .order_list .list .car_info .addr {
+      margin-top: .1rem;
+      font-size: .26rem;
+      color: #646470; }
+    .order_list .list .car_info i {
+      font-size: .42rem;
+      color: #00BBB2;
+      float: right; }
+  .order_list .list .list_still {
+    margin-top: 0; }
+    .order_list .list .list_still .qzc_list {
+      padding-top: .15rem; }
+  .order_list .list .list_take {
+    margin-top: .3rem; }
+    .order_list .list .list_take .qzc_list {
+      padding-bottom: .15rem; }
+  .order_list .list .css_date {
+    background: #ffffff;
+    position: relative; }
+    .order_list .list .css_date .container {
+      padding: .3rem .16rem; }
+  .order_list .list .car_auditing {
+    color: #FFB400;
+    font-weight: normal;
+    float: right;
+    margin-right: .4rem; }
+  .order_list .list .car_forIn {
+    color: #00BBB2;
+    font-weight: normal;
+    float: right;
+    margin-right: .4rem; }
+
+/*# sourceMappingURL=css.css.map */

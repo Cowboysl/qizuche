@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轻租车</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" href="../../plugins/ydui-0.1.3/build/css/ydui.css" />
+    <script src="../../plugins/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="../../assets/js/index.js"></script>
+    <script src="../../assets/js/regular.js"></script>
+    <link rel="stylesheet" href="css/css.min.css" />
+</head>
+<body>
+    <section class="v_login">
+        <header class="qzc_flex_2 center_mid">
+            <div><img src="../../public/images/user_logo.png" alt=""></div>
+            <div><span class="float_r myOrder"><i class="icon-order center_mid"><span style="font-size: 14px;font-weight: bolder;margin-left: 5px">我的订单</span></i></span></div>
+        </header>
+        <div class="content center_mid">
+            <div>
+                <div class="title">轻租车出险代步车</div>
+                <div class="title_fu">请填写以下信息，核实使用资格</div>
+            </div>
+        </div>
+        <div class="input_div">
+            <label for="VIN">车架号/VIN码/车辆识别码</label>
+            <div class="style_input add_r">
+                <input id="VIN" class="vin_other" type="text" placeholder="车架号/VIN码/车辆识别码"/>
+                <a href="javascript:void(0)" onclick="openUpImg(this)" class="css_pg flx_space-between active" id="open_"><div class="icon camera_fill"></div>
+                    <input id="upImg" type="file" style="opacity: 0;width: 0;margin: 0;padding: 0;position: absolute" accept="image/*" /><span style="line-height: 1.9">拍照识别</span>
+                </a>
+            </div>
+        </div>
+        <div class="input_div">
+            <label for="license">车牌号</label>
+            <div class="style_input add_r">
+                <input id="license" type="text" placeholder="车牌号/临时车牌号"/>
+            </div>
+        </div>
+        <div class="input_div">
+            <label for="user_phone">手机号</label>
+            <div class="style_input add_r">
+                <input id="user_phone" type="text" placeholder="手机号/登陆手机"/>
+            </div>
+        </div>
+        <div class="input_div">
+            <label for="code">短信验证码</label>
+            <div class="style_input add_r">
+                <input id="code" class="vin_other" type="text" placeholder="收到的短信验证码"/>
+                <a href="javascript:void(0)" onclick="sendCode(this)" class="active css_sendCode" id="get_code">点击获取</a>
+            </div>
+        </div>
+        <button onclick="doLoginValidate()" type="button" class="btn-block btn-primary qzc_btn">确定</button>
+    </section>
+</body>
+<script src="../../plugins/ydui-0.1.3/build/js/ydui.js"></script>
+<script src="../../plugins/ydui-0.1.3/build/js/ydui.flexible.js"></script>
+<script src='../../plugins/md5/jquery.md5.js'></script>
+<script src="../../plugins/uploadimage/dist/lrz.all.bundle.js"></script>
+<script src="js/login.js"></script>
+</html>
